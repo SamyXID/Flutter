@@ -13,7 +13,7 @@ class _TampilanListViewState extends State<TampilanListView> {
   Widget build(BuildContext context) {
     var _gambar = CircleAvatar(
       backgroundColor: Colors.transparent,
-      radius: 30.0,
+      radius: 25.0,
       backgroundImage: AssetImage("img/a.png"),
     );
 
@@ -34,20 +34,16 @@ class _TampilanListViewState extends State<TampilanListView> {
         _card,
         _card,
         _card,
-        _card,
-        _card,
-        _card,
-        _card,
       ],
     );
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Implementasi ListView"),
+        title: Text("Tab ListView"),
       ),
       body: Container(
-        margin: EdgeInsets.all(10.0),
-        child: _listview,
+        margin: EdgeInsets.all(1.0),
+        child: _listview
       ),
     );
   }

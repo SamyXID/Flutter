@@ -53,7 +53,7 @@ class _TampilanGridViewState extends State<TampilanGridView> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Implementasi GridView"),
+        title: Text("Tab GridView"),
       ),
       body: Container(
         child: _girdView,

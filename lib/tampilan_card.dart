@@ -14,6 +14,7 @@ class _TampilanCardState extends State<TampilanCard> {
     var _gambar = Image.asset("img/g.jpg");
 
     var _listtile = ListTile(
+      
       title: Text("Samy Mawon", textAlign: TextAlign.center),
       subtitle: Text("Dota2, Lead Top", textAlign: TextAlign.center),
     );
@@ -30,12 +31,12 @@ class _TampilanCardState extends State<TampilanCard> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Implementasi Card"),
+        title: Text("Tab Card"),
       ),
       body: Container(
-        margin: EdgeInsets.all(30.0),
+        margin: EdgeInsets.all(40.0),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
             _card,
           ],
